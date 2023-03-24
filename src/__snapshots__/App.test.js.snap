@@ -1,0 +1,596 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Word cloud app renders Cloud word 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <header
+          class="header"
+        >
+          <h1>
+            My Topics Challenge
+          </h1>
+        </header>
+        <section
+          class="word-cloud"
+        >
+          <button
+            class="topic positive"
+            data-level="6"
+            style="order: 18;"
+          >
+            Berlin
+          </button>
+          <button
+            class="topic "
+            data-level="2"
+            style="order: 20;"
+          >
+            DJ
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 9;"
+          >
+            Ostgut Ton
+          </button>
+          <button
+            class="topic negative"
+            data-level="2"
+            style="order: 23;"
+          >
+            Hammered
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 8;"
+          >
+            Code
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 27;"
+          >
+            Quantified Drunk
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 11;"
+          >
+            Berghain resident
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 24;"
+          >
+            San Soda's Panorama Bar
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 9;"
+          >
+            Germany
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 11;"
+          >
+            Amsterdam
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 0;"
+          >
+            Kantine am Berghain
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 9;"
+          >
+            London
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 19;"
+          >
+            UK
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 21;"
+          >
+            Marcel Dettmann
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 17;"
+          >
+            Disco
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 8;"
+          >
+            Barcelona
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 18;"
+          >
+            Watergate
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 14;"
+          >
+            debut LP
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 22;"
+          >
+            Patrick Gräser
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 26;"
+          >
+            Panorama Bar in Berlin
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 0;"
+          >
+            legendary nightclub
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 18;"
+          >
+            Ben Klock
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 15;"
+          >
+            Mixes
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 26;"
+          >
+            Panorama Bar Music
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 21;"
+          >
+            Terrace Sundae
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 14;"
+          >
+            Jun
+          </button>
+          <button
+            class="topic positive"
+            data-level="1"
+            style="order: 3;"
+          >
+            Live set
+          </button>
+          <button
+            class="topic "
+            data-level="1"
+            style="order: 5;"
+          >
+            dance music
+          </button>
+          <button
+            class="topic "
+            data-level="0"
+            style="order: 24;"
+          >
+            club culture
+          </button>
+          <button
+            class="topic "
+            data-level="0"
+            style="order: 20;"
+          >
+            D/B Presents
+          </button>
+        </section>
+        <section
+          class="sidebar"
+        >
+          <p
+            data-testid="metadata-header"
+          >
+            Information on topic "
+            Berlin
+            "
+          </p>
+          <p>
+            Total mentions: 
+            165
+          </p>
+          <p>
+            Positive mentions: 
+            <span
+              class="positive"
+              data-testid="positive-mention"
+            >
+              29
+            </span>
+          </p>
+          <p>
+            Neutral mentions: 
+            <span
+              data-testid="neutral-mention"
+            >
+              133
+            </span>
+          </p>
+          <p>
+            Negative mentions: 
+            <span
+              class="negative"
+              data-testid="negative-mention"
+            >
+              3
+            </span>
+          </p>
+        </section>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <header
+        class="header"
+      >
+        <h1>
+          My Topics Challenge
+        </h1>
+      </header>
+      <section
+        class="word-cloud"
+      >
+        <button
+          class="topic positive"
+          data-level="6"
+          style="order: 18;"
+        >
+          Berlin
+        </button>
+        <button
+          class="topic "
+          data-level="2"
+          style="order: 20;"
+        >
+          DJ
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 9;"
+        >
+          Ostgut Ton
+        </button>
+        <button
+          class="topic negative"
+          data-level="2"
+          style="order: 23;"
+        >
+          Hammered
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 8;"
+        >
+          Code
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 27;"
+        >
+          Quantified Drunk
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 11;"
+        >
+          Berghain resident
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 24;"
+        >
+          San Soda's Panorama Bar
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 9;"
+        >
+          Germany
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 11;"
+        >
+          Amsterdam
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 0;"
+        >
+          Kantine am Berghain
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 9;"
+        >
+          London
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 19;"
+        >
+          UK
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 21;"
+        >
+          Marcel Dettmann
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 17;"
+        >
+          Disco
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 8;"
+        >
+          Barcelona
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 18;"
+        >
+          Watergate
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 14;"
+        >
+          debut LP
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 22;"
+        >
+          Patrick Gräser
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 26;"
+        >
+          Panorama Bar in Berlin
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 0;"
+        >
+          legendary nightclub
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 18;"
+        >
+          Ben Klock
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 15;"
+        >
+          Mixes
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 26;"
+        >
+          Panorama Bar Music
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 21;"
+        >
+          Terrace Sundae
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 14;"
+        >
+          Jun
+        </button>
+        <button
+          class="topic positive"
+          data-level="1"
+          style="order: 3;"
+        >
+          Live set
+        </button>
+        <button
+          class="topic "
+          data-level="1"
+          style="order: 5;"
+        >
+          dance music
+        </button>
+        <button
+          class="topic "
+          data-level="0"
+          style="order: 24;"
+        >
+          club culture
+        </button>
+        <button
+          class="topic "
+          data-level="0"
+          style="order: 20;"
+        >
+          D/B Presents
+        </button>
+      </section>
+      <section
+        class="sidebar"
+      >
+        <p
+          data-testid="metadata-header"
+        >
+          Information on topic "
+          Berlin
+          "
+        </p>
+        <p>
+          Total mentions: 
+          165
+        </p>
+        <p>
+          Positive mentions: 
+          <span
+            class="positive"
+            data-testid="positive-mention"
+          >
+            29
+          </span>
+        </p>
+        <p>
+          Neutral mentions: 
+          <span
+            data-testid="neutral-mention"
+          >
+            133
+          </span>
+        </p>
+        <p>
+          Negative mentions: 
+          <span
+            class="negative"
+            data-testid="negative-mention"
+          >
+            3
+          </span>
+        </p>
+      </section>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
