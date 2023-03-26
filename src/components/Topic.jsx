@@ -11,6 +11,7 @@ const Button = styled.button`
     cursor: pointer;
     font-size: ${props => fontSizes[props.level]};
     line-height: ${props => lineHeights[props.level]};
+    order: ${props => props.randomOrder};
     &.positive {
         color: #39c65a;
     }
@@ -23,7 +24,7 @@ const Topic = ({label, level, onClick, randomOrder, sentimentScore}) => {
     const sentiment = sentimentScore > 60 ? 'positive' : sentimentScore < 40 ? 'negative' : ''
 
     return (
-        <Button onClick={onClick} className={sentiment} level={level} style={{order: randomOrder}}>
+        <Button onClick={onClick} className={sentiment} level={level} randomOrder={randomOrder}>
             {label}
         </Button>
     )

@@ -7,7 +7,6 @@ describe('Word cloud app', () => {
 
   test('renders Cloud word',() => {
     const container = render(<App />);
-    expect(container).toMatchSnapshot()
     expect(screen.getAllByRole('button').length).toEqual(topics.length)
   })
 
