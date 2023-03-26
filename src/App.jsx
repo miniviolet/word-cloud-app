@@ -12,7 +12,7 @@ const Main = styled.div`
   grid-gap: 25px;
   grid-template-areas: "header header"
   "cloud sidebar";
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, Helvetica, sans-serif;
 `
 
 const Header = styled.header`
