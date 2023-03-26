@@ -1,8 +1,38 @@
-import './App.css';
 import { useEffect, useState } from 'react';
+import styled from 'styled-components';
 import Topics from './assets/topics'
 import Topic from './components/Topic';
 import Metadata from './components/Metadata';
+
+const Main = styled.div`
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-gap: 25px;
+  grid-template-areas: "header header"
+  "cloud sidebar";
+  font-family: Arial, Helvetica, sans-serif;
+`
+
+const Header = styled.header`
+  background-color: #282c34;
+  color: white;
+  grid-area: header;
+`
+
+const WordCloud = styled.section`
+  grid-area: cloud;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+`
+
+const Sidebar = styled.section`
+  grid-area: sidebar;
+  text-align: left;
+`
 
 function App() {
   const topics = Topics.topics
@@ -35,11 +65,11 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <header className='header'>
+    <Main>
+      <Header>
         <h1>My Topics Challenge</h1>
-      </header>
-      <section className='word-cloud'>
+      </Header>
+      <WordCloud>
         {
           topics.map((topic, idx) => {
             const { id, label, sentimentScore, volume } = topic
@@ -47,11 +77,11 @@ function App() {
            return <Topic key={id} {...{label, onClick: () => setCurrentIndex(idx), level, randomOrder: randomOrderList[idx], sentimentScore}} />
           })
         }
-      </section>
-      <section className='sidebar'>
+      </WordCloud>
+      <Sidebar>
         <Metadata {...{label: currentWord.label, sentiment: currentWord.sentiment, volume: currentWord.volume}} />
-      </section>
-    </div>
+      </Sidebar>
+    </Main>
   );
 }
 
